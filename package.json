@@ -1,11 +1,17 @@
 {
-  "name": "@YATHENDRA1995/github_package_1",
+  "name": "@yathendra1995/github_package_1",
   "version": "1.0.0",
   "description": "Github Package Test",
   "main": "index.js",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yathendra",
+  "repository": {
+    "url": "git://github.com/yathendra1995/github_package_1.git"
+  },
   "license": "ISC"
 }
